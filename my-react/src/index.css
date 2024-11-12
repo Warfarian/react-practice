@@ -1,0 +1,54 @@
+body{
+  width: 400px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+h2::after{
+  content: " Full Stack Developer";
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 35px;
+  height: 35px;
+}
+
+.container{
+  background-color:#1f2022;
+  color: white;
+  font-family: 'Inter';
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button{
+  display: flex;
+  align-items: center;
+  background-color: #373839;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  gap: 10px;
+  font-size: 15px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.buttonContainer{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+}
